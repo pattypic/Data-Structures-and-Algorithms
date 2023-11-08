@@ -1,0 +1,53 @@
+===== AVL TREE =====
+         -> 98
+      -> 98
+            -> 97
+         -> 96
+   -> 95
+      -> 94
+         -> 93
+-> 92
+         -> 91
+            -> 90
+      -> 77
+            -> 72
+         -> 71
+   -> 70
+            -> 67
+         -> 50
+      -> 46
+            -> 32
+         -> 10
+            -> 5
+Tree height: 4
+Tree range: 93
+Values at level 2: [46 77 94 98]
+Tree left side view: [92, 70, 46, 10, 5]
+Sum of leaf nodes: 554
+
+===== BINARY SEARCH TREE =====
+            -> 98
+         -> 98
+                                 -> 97
+                              -> 96
+                           -> 95
+                        -> 94
+                     -> 93
+                  -> 92
+               -> 91
+            -> 90
+      -> 77
+            -> 72
+         -> 71
+   -> 70
+      -> 67
+-> 50
+   -> 46
+         -> 32
+      -> 10
+         -> 5
+Tree height: 11
+Tree range: 93
+Values at level 2: [10 67 77]
+Tree left side view: [50, 46, 10, 5]
+Sum of leaf nodes: 371
